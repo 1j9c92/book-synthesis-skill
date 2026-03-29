@@ -1,46 +1,34 @@
 # Book Synthesis Skill
 
-**Most book tools give you a summary. This gives you a synthesis — every idea translated into your domain, your problems, your actual situation.**
-
-Not what the book says. What it means for you.
+Most book tools give you a summary. This gives you a synthesis — every idea translated into your domain, your problems, your situation. The difference matters. A summary tells you what a book says. A synthesis tells you what it means for you, right now, given your actual work.
 
 ---
 
 ## What it does
 
-Give it a book. It produces:
-
-- A **personalized synthesis** where every example and "so what" is drawn from your world — not the author's generic ones
-- A **designed PDF** with diagrams built for the concept: flow diagrams, loop diagrams, decision trees, comparison cards, leverage charts, timeline grids
-- A **clean markdown version** for your notes system
-
----
-
-## How it works
-
-**First time:** It asks you 12–13 questions (~5 minutes) to build a reader profile — your role, how you think, what you're working on, where you stall. Saves it as `READER_PROFILE.md`.
-
-**Every time after:** Just name the book. It loads your profile and does the translation automatically.
+Give it a book and it produces three things: a personalized synthesis where every example and "so what" is drawn from your world rather than the author's generic ones, a designed PDF where each concept gets a diagram matched to its structure (flow diagrams, loop diagrams, decision trees, comparison cards, leverage charts, timeline grids), and a clean markdown version for your notes system.
 
 The visual design isn't decoration. Concepts that describe loops become loop diagrams. Comparisons become side-by-side cards. When the visual matches the concept's structure, you understand it faster and retain it longer.
 
 ---
 
+## How it works
+
+The first time you use it, it asks 12-13 questions (about 5 minutes) to build a reader profile — your role, how you think, what you're working on, where you tend to stall. It saves this as `READER_PROFILE.md`. After that, just name the book and it handles the rest automatically.
+
+---
+
 ## Installation
 
-### Claude Code
-Copy the `book-synthesis/` folder into your `.claude/skills/` directory.
+**Claude Code:** Copy the `book-synthesis/` folder into your `.claude/skills/` directory.
 
-### Cowork
-1. Download `book-synthesis.skill` from the releases page
-2. Open Cowork → Settings → Skills → Install from file
-3. Select `book-synthesis.skill`
+**Cowork:** Download `book-synthesis.skill` from the releases page, open Cowork > Settings > Skills > Install from file, and select it.
 
 ---
 
 ## Usage
 
-Say any of:
+Say things like:
 
 - *"Synthesize [Book Title] for me"*
 - *"Make me book notes for [Book Title]"*
@@ -67,16 +55,9 @@ Say any of:
 
 ## Reader profile
 
-Your profile covers:
+Your profile covers six things: your role and the decisions you make or influence, how you learn best, what you're building toward and what drains you, where you tend to stall, the worlds you want examples pulled from, and your default length and format preferences.
 
-- **Work & context** — role, decisions you make or influence, persistent problems
-- **Cognitive style** — how you learn best
-- **Motivation & growth** — what you're building toward, what drains you
-- **Blind spots** — where you stall, recurring feedback
-- **Example domains** — the worlds you want examples pulled from
-- **Output preferences** — default length and format
-
-Update it any time: *"Update my reader profile."*
+To update it at any time, say: *"Update my reader profile."*
 
 ---
 
@@ -90,14 +71,6 @@ book-synthesis/
     ├── visual-principles.md    # Design system with HTML/CSS/SVG patterns
     └── synthesis-template.md   # Synthesis prompt, voice guidelines, quality checklist
 ```
-
----
-
-## Why synthesis, not summary
-
-A summary tells you what a book says. A synthesis tells you what it means — for you, right now, given your actual situation. The gap between those two things is why most reading doesn't change how you work.
-
-This skill closes that gap by doing the translation explicitly: replacing the author's examples with yours, mapping each idea to your specific problems, and ending with concrete experiments rather than vague takeaways.
 
 ---
 
