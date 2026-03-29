@@ -1,4 +1,4 @@
-# Personalized Book Synthesis Skill
+# Personalized book synthesis skill
 
 Most book tools give you a summary. This gives you a synthesis — every idea translated into your domain, your problems, your situation. The difference matters. A summary tells you what a book says. A synthesis tells you what it means for you, right now, given your actual work.
 
