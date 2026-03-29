@@ -1,6 +1,6 @@
 # Visual Design Principles for Book Synthesis PDFs
 
-This document defines the complete design system for book synthesis PDFs. Read this entire file before generating any PDF. The goal: every output should look like a premium consulting deliverable or a well-designed book — not a formatted Word document.
+This document defines the complete design system for book synthesis PDFs. Read this entire file before generating any PDF. The goal: every output should look like a premium, well-designed book — not a formatted Word document.
 
 ---
 

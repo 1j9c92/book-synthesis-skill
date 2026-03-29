@@ -11,7 +11,7 @@ Not a summary. A translation.
 This skill takes any business or nonfiction book and produces:
 
 - A **personalized synthesis** where every example, every connection, and every "so what" is drawn from your world — not the author's generic examples
-- A **beautifully designed PDF** with consulting-quality visuals: flow diagrams, comparison matrices, loop diagrams, leverage charts, decision trees, timeline grids
+- A **beautifully designed PDF** with high-quality visuals: flow diagrams, comparison matrices, loop diagrams, leverage charts, decision trees, timeline grids
 - A **clean markdown version** for your notes system
 
 The output looks like a premium briefing book written specifically for you — because it is.
@@ -31,7 +31,7 @@ The output looks like a premium briefing book written specifically for you — b
 ### In Claude Code
 ```bash
 # Install directly
-claude skill install https://github.com/[1j9c92]/book-synthesis-skill
+claude skill install https://github.com/[your-username]/book-synthesis-skill
 ```
 
 Or copy the `book-synthesis/` folder into your `.claude/skills/` directory.
@@ -114,6 +114,6 @@ The visual design is not decoration. It's signal. Concepts that describe loops b
 
 ## Credits
 
-Built for the Cowork/Claude Code plugin ecosystem. Inspired by the book synthesis workflow developed at [github.com/1j9c92].
+Built for the Cowork/Claude Code plugin ecosystem. Inspired by the book synthesis workflow developed at [github.com/your-username].
 
 Licensed under MIT.
