@@ -1,8 +1,6 @@
 # Book Synthesis Skill
 
-**Transform any business or nonfiction book into a deeply personalized synthesis — every idea translated into your domain, your problems, your life.**
-
-Not a summary. A translation.
+**Transform any business or nonfiction book into a personalized 15 page - 30 page synthesis — each key idea from the book translated into your domain, your problems, your life.**
 
 ---
 
@@ -14,7 +12,7 @@ This skill takes any business or nonfiction book and produces:
 - A **beautifully designed PDF** with high-quality visuals: flow diagrams, comparison matrices, loop diagrams, leverage charts, decision trees, timeline grids
 - A **clean markdown version** for your notes system
 
-The output looks like a premium briefing book written specifically for you — because it is.
+The output looks like a premium briefing book written specifically for you.
 
 ---
 
