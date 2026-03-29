@@ -6,15 +6,13 @@ Most book tools give you a summary. This gives you a synthesis — every idea tr
 
 ## What it does
 
-Give it a book and it produces three things: a personalized synthesis where every example and "so what" is drawn from your world rather than the author's generic ones, a designed PDF where each concept gets a diagram matched to its structure (flow diagrams, loop diagrams, decision trees, comparison cards, leverage charts, timeline grids), and a clean markdown version for your notes system.
-
-The visual design isn't decoration. Concepts that describe loops become loop diagrams. Comparisons become side-by-side cards. When the visual matches the concept's structure, you understand it faster and retain it longer.
+Give it a book and it produces three things: a personalized synthesis where every example and "so what" is drawn from your world rather than the author's generic ones in the form of a beautifully designed PDF where key concepts get helpful diagrams matched to their structure.
 
 ---
 
 ## How it works
 
-The first time you use it, it asks 12-13 questions (about 5 minutes) to build a reader profile — your role, how you think, what you're working on, where you tend to stall. It saves this as `READER_PROFILE.md`. After that, just name the book and it handles the rest automatically.
+The first time you use it, it asks 12-13 questions (about 5 minutes) to build a reader profile — your professional role, how you think, what you're working on, where you tend to stall. It saves this as `READER_PROFILE.md`. After that, just upload a pdf of the book (Google search around, and often GitHub repos have full book PDFs) and it handles the rest automatically.
 
 ---
 
@@ -23,6 +21,10 @@ The first time you use it, it asks 12-13 questions (about 5 minutes) to build a 
 **Claude Code:** Copy the `book-synthesis/` folder into your `.claude/skills/` directory.
 
 **Cowork:** Download `book-synthesis.skill` from the releases page, open Cowork > Settings > Skills > Install from file, and select it.
+
+**Manus, Perplexity Computer, etc:** Download these files and paste them into a chat with your agent framework of choice and ask it to incorporate the skill into your workflow or skill library.
+
+**Personalization:** Feel free to ask Claude Cowork/Code or whichever framework you choose to personalize the skill to your needs further. It might help to trial it with one personalized book synthesis, skim through it, and then chat back and forth with the agent to refine/personalize the skill to your needs.
 
 ---
 
