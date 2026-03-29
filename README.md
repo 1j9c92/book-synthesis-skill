@@ -31,7 +31,7 @@ The output looks like a premium briefing book written specifically for you — b
 ### In Claude Code
 ```bash
 # Install directly
-claude skill install https://github.com/[your-username]/book-synthesis-skill
+claude skill install https://github.com/[1j9c92]/book-synthesis-skill
 ```
 
 Or copy the `book-synthesis/` folder into your `.claude/skills/` directory.
@@ -114,6 +114,6 @@ The visual design is not decoration. It's signal. Concepts that describe loops b
 
 ## Credits
 
-Built for the Cowork/Claude Code plugin ecosystem. Inspired by the book synthesis workflow developed at [github.com/your-username].
+Built for the Cowork/Claude Code plugin ecosystem. Inspired by the book synthesis workflow developed at [github.com/1j9c92].
 
 Licensed under MIT.
