@@ -1,4 +1,4 @@
-# Synthesis Template
+# Peronalized Book Synthesis Template
 
 This document defines the content structure and voice guidelines for every book synthesis. Read this alongside `visual-principles.md`.
 
